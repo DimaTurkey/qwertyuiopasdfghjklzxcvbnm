@@ -42,8 +42,8 @@
                 <p>Символьна підстановка ромб &#9674;</p>
       </li>
     </ul>
-    <table>
-      <caption>Розклад уроків 5 класу</caption>
+      <table>
+        <caption>Розклад уроків 5 класу</caption>
       <thead>
         <tr>
           <th>Номер уроку/День тижня</th>
@@ -57,49 +57,100 @@
       <tbody>
         <tr>
           <th>1.</th>
-          <td>0,9 (90 л.с.)</td>
-          <td>0,9 (90 л.с.)</td>
-          <td>1,5 (90 л.с.)</td>
+          <td>Алгебра</td>
+          <td>Українська мова/Українська література</td>
+          <td>Зарубіжна література</td>
+          <td>Інформатика/Хімія</td>
+          <td>Фізика</td>
         </tr>
         <tr>
           <th>2.</th>
-          <td>бензин</td>
-          <td>бензин</td>
-          <td>дизель</td>
+          <td>Англійська мова</td>
+          <td>Хімія</td>
+          <td>Фізика</td>
+          <td>Алгебра</td>
+          <td>Основи здоров'я</td>
         </tr>
         <tr>
          <th>3.</th>
-         <td>Евро-6</td>
-         <td>Евро-6</td>
-         <td>Евро-5</td>
+         <td>Українська мова</td>
+         <td>Зарубіжна література</td>
+         <td>Українська література</td>
+         <td>Англійська мова</td>
+         <td>Алгебра</td>
         </tr>
         <tr>
           <th>4.</th>
-          <td>0,9 (90 л.с.)</td>
-          <td>0,9 (90 л.с.)</td>
-          <td>1,5 (90 л.с.)</td>
+          <td>Українська мова</td>
+          <td>Алгебра</td>
+          <td>Географія</td>
+          <td>Географія</td>
+          <td>Біологія</td>  
         </tr>
         <tr>
         <th>5.</th>
-        <td>0,9 (90 л.с.)</td>
-        <td>0,9 (90 л.с.)</td>
-        <td>1,5 (90 л.с.)</td>
+        <td>Геометрія</td>
+        <td>Геометрія</td>
+        <td>Геометрія</td>
+        <td>Геометрія</td>
+        <td>Геометрія</td>
       </tr>
       <tr>
         <th>6.</th>
-        <td>бензин</td>
-        <td>бензин</td>
-        <td>дизель</td>
+        <td>Фізика</td>
+        <td>Англійська мова</td>
+        <td>Алгебра</td>
+        <td>Біологія</td>
+        <td>Історія світу</td>
       </tr>
         <tfoot>
           <tr>
           <th>7.</th>
-          <td>Евро-6</td>
-          <td>Евро-6</td>
-          <td>Евро-5</td>
+          <td>Історія світу</td>
+          <td>Історія україни</td>
+          <td>Історія україни/Українська мова</td>
+          <td>Українська мова</td>
+          <td>Українська мова</td>
          </tr>
         </tfoot>
       </tbody>
-    </table>
+      </table>
+      <h2>Введіть свої дані</h2>
+   <form action='/action_page.html'>
+  <fieldset>
+    <legend>Особиста інформація:</legend>
+    Ім’я:<br>
+    <input type='text' name='firstname' value='Владислав'><br>
+    Прізвище:<br>
+    <input type='text' name='lastname' value='Смутньов'><br><br>
+    <input type='submit' value='Відправити ім’я та прізвище'>
+  </fieldset>
+</form>
+        <div>
+        <label for="telephone">enter your telephone</label>
+        <input type="telephone" placeholder="+38021553126" id="telephone"/>
+      </div>
+        <div>
+        <label for="email">enter your email</label>
+        <input type="email" placeholder="kirilenkod018@gmail.com" id="email"/>
+      </div>
+         <form>
+   <p><strong>Type your name</strong></p>
+   <p><input name="name" list="name"></p>
+  </form>
+  <p>Відправити професійну свою інформацію</p>
+<hr>
+ <form>
+  <lable>Ваше повідомлення:</lable><br>
+  <textarea></textarea>
+  <br>
+  <button formenctype = "text/plain">Надіслати</button>
+</form>
+    <form>
+  <input type='radio' name='gender" value='male' checked> Чоловіча<br>
+  <input type='radio' name='gender' value='female'> Жіноча<br>
+  <input type='radio' name='gender' value='other'> Інша
+</form>
+ 
   </body>
 </html>
